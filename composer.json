@@ -3,7 +3,7 @@
   "description": "Lime Light CRM Client for Laravel 5",
   "require": {
     "php": ">=5.5.0",
-    "illuminate/support": "^5.2|^6.0|^7.0|^8.0",
+    "illuminate/support": "^5.2|^6.0|^7.0|^8.0|^9.0",
     "kevinem/lime-light-crm-php": "^0.1.0"
   },
   "require-dev": {
