@@ -1,22 +1,34 @@
 {
   "name": "kevinem/lime-light-crm-laravel",
-  "description": "Lime Light CRM Client for Laravel 5",
-  "require": {
-    "php": ">=5.5.0",
-    "illuminate/support": "^5.2|^6.0|^7.0|^8.0|^9.0",
-    "kevinem/lime-light-crm-php": "^0.1.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^5.4",
-    "mockery/mockery": "^0.9.5"
-  },
+  "description": "Lime Light CRM Client for Laravel 8/9",
+  "keywords": [
+    "palPalani",
+    "laravel",
+    "lime-light-crm-laravel"
+  ],
+  "homepage": "https://github.com/palpalani/lime-light-crm-laravel",
   "license": "MIT",
   "authors": [
     {
       "name": "Kevin Em",
       "email": "kevinem@thinkdevise.com"
+    },
+    {
+        "name": "palPalani",
+        "email": "palani.p@gmail.com",
+        "role": "Developer"
     }
   ],
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^8.0|^9.0",
+    "kevinem/lime-light-crm-php": "^0.1"
+  },
+  "require-dev": {
+    "laravel/pint": "^1.0",
+    "phpunit/phpunit": "^9.5",
+    "mockery/mockery": "^1.5"
+  },
   "autoload": {
     "psr-4": {
       "KevinEm\\LimeLightCRMLaravel\\": "src/"
@@ -26,5 +38,23 @@
     "psr-4": {
       "KevinEm\\LimeLightCRMLaravel\\Tests\\": "tests/"
     }
-  }
+  },
+  "scripts": {
+    "format": "vendor/bin/pint"
+  },
+  "config": {
+      "sort-packages": true
+  },
+  "extra": {
+      "laravel": {
+          "providers": [
+              "KevinEm\\LimeLightCRMLaravel\\LimeLightCRMLaravelServiceProvider"
+          ],
+          "aliases": {
+              "LimeLightCrmLaravel": "KevinEm\\LimeLightCRMLaravel\\Facades\\LimeLightCRMLaravel"
+          }
+      }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
