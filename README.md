@@ -1,6 +1,4 @@
-# Adobe Sign for Laravel 5
-
-https://acrobat.adobe.com/us/en/sign.html
+# Lime Light CRM Client for Laravel 8/9
 
 [![Latest Stable Version](https://poser.pugx.org/kevinem/lime-light-crm-laravel/v/stable?format=flat-square)](https://packagist.org/packages/kevinem/lime-light-crm-laravel)
 [![License](https://poser.pugx.org/kevinem/lime-light-crm-laravel/license?format=flat-square)](https://packagist.org/packages/kevinem/lime-light-crm-laravel)
