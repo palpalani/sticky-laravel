@@ -4,11 +4,11 @@ https://acrobat.adobe.com/us/en/sign.html
 
 [![Latest Stable Version](https://poser.pugx.org/kevinem/lime-light-crm-laravel/v/stable?format=flat-square)](https://packagist.org/packages/kevinem/lime-light-crm-laravel)
 [![License](https://poser.pugx.org/kevinem/lime-light-crm-laravel/license?format=flat-square)](https://packagist.org/packages/kevinem/lime-light-crm-laravel)
-[![Build Status](https://travis-ci.org/kevinem/lime-light-crm-laravel.svg?branch=master)](https://travis-ci.org/kevinem/lime-light-crm-laravel)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/palpalani/lime-light-crm-laravel/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/palpalani/lime-light-crm-laravel/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Apatch-1)
 
 ## Installation
 
-To install, use composer:
+You can install the package via composer:
 
 ```
 composer require kevinem/lime-light-crm-laravel
@@ -61,21 +61,29 @@ LimeLightCRM::transaction()->newProspect([
 ]);
 ```
 
-## License 
+## Testing
 
-The MIT License (MIT)
-Copyright (c) 2016 Kevin Em
+```bash
+composer test
+```
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
-documentation files (the "Software"), to deal in the Software without restriction, including without limitation
-the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
-and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+## Changelog
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of
-the Software.
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
-TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
-THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
-CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-IN THE SOFTWARE.
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+## Security Vulnerabilities
+
+Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
+
+## Credits
+
+- [palPalani](https://github.com/palpalani)
+- [All Contributors](../../contributors)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
