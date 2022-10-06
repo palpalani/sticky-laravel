@@ -41,7 +41,7 @@
       "type": "vcs",
       "url": "git@github.com:palpalani/lime-light-crm-php.git",
       "no-api": true
-    },
+    }
   ],
   "autoload": {
     "psr-4": {
