@@ -1,12 +1,14 @@
 {
-  "name": "kevinem/lime-light-crm-laravel",
-  "description": "Lime Light CRM Client for Laravel 8/9",
+  "name": "palpalani/sticky-laravel",
+  "description": "Sticky Subscription Commerce Platform Client for Laravel 8/9",
   "keywords": [
     "palPalani",
     "laravel",
+    "sticky-subscription",
+    "subscription-commerce",
     "lime-light-crm-laravel"
   ],
-  "homepage": "https://github.com/palpalani/lime-light-crm-laravel",
+  "homepage": "https://github.com/palpalani/sticky-laravel",
   "license": "MIT",
   "authors": [
     {
@@ -36,13 +38,6 @@
     "phpstan/phpstan-phpunit": "^1.0",
     "phpunit/phpunit": "^9.5"
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:palpalani/lime-light-crm-php.git",
-      "no-api": true
-    }
-  ],
   "autoload": {
     "psr-4": {
       "KevinEm\\LimeLightCRMLaravel\\": "src/"
