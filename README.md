@@ -1,15 +1,15 @@
-# Lime Light CRM Client for Laravel 8/9
+# Sticky Subscription Commerce Platform Client for Laravel 8/9
 
-[![Latest Stable Version](https://poser.pugx.org/kevinem/lime-light-crm-laravel/v/stable?format=flat-square)](https://packagist.org/packages/kevinem/lime-light-crm-laravel)
-[![License](https://poser.pugx.org/kevinem/lime-light-crm-laravel/license?format=flat-square)](https://packagist.org/packages/kevinem/lime-light-crm-laravel)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/palpalani/lime-light-crm-laravel/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/palpalani/lime-light-crm-laravel/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Apatch-1)
+[![Latest Stable Version](https://poser.pugx.org/palpalani/sticky-laravel/v/stable?format=flat-square)](https://packagist.org/packages/palpalani/sticky-laravel)
+[![License](https://poser.pugx.org/palpalani/sticky-laravel/license?format=flat-square)](https://packagist.org/packages/palpalani/sticky-laravel)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/palpalani/sticky-laravel/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/palpalani/sticky-laravel/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Apatch-1)
 
 ## Installation
 
 You can install the package via composer:
 
 ```
-composer require kevinem/lime-light-crm-laravel
+composer require palpalani/sticky-laravel
 ```
 
 ## Documentation
