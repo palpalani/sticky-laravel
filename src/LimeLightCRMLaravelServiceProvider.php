@@ -1,20 +1,17 @@
 <?php
 
+declare(strict_types=1);
 
 namespace KevinEm\LimeLightCRMLaravel;
 
-
 use Illuminate\Support\ServiceProvider;
-use KevinEm\AdobeSign\AdobeSign;
 use KevinEm\LimeLightCRM\LimeLightCRM;
 
 /**
  * Class LimeLightCRMLaravelAdobeSignLaravelServiceProvider
- * @package KevinEm\LimeLightCRMLaravel
  */
 class LimeLightCRMLaravelServiceProvider extends ServiceProvider
 {
-
     /**
      * Perform post-registration booting of services.
      *
@@ -22,10 +19,10 @@ class LimeLightCRMLaravelServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $config = $this->app['path.config'] . '/lime-light-crm.php';
+        $config = $this->app['path.config'].'/lime-light-crm.php';
 
         $this->publishes([
-            __DIR__ . '/../config/config.php' => $config
+            __DIR__.'/../config/config.php' => $config,
         ]);
     }
 
@@ -36,7 +33,7 @@ class LimeLightCRMLaravelServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'lime-light-crm');
+        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'lime-light-crm');
 
         $this->app->bind('lime-light-crm-laravel', $this->createLimeLightCRMLaravelClosure());
     }

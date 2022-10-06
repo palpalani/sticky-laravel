@@ -1,8 +1,8 @@
 <?php
 
+declare(strict_types=1);
 
 namespace KevinEm\LimeLightCRMLaravel\Facades;
-
 
 use Illuminate\Support\Facades\Facade;
 

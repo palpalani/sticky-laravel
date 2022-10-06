@@ -1,13 +1,11 @@
 <?php
 
+declare(strict_types=1);
 
 namespace KevinEm\LimeLightCRMLaravel\Tests;
 
-
 use ArrayAccess;
 use Closure;
-use KevinEm\AdobeSignLaravel\AdobeSignLaravelServiceProvider;
-use KevinEm\AdobeSignLaravel\Facades\AdobeSignLaravel;
 use KevinEm\LimeLightCRMLaravel\Facades\LimeLightCRMLaravel;
 use KevinEm\LimeLightCRMLaravel\LimeLightCRMLaravelServiceProvider;
 use Mockery as m;
@@ -74,13 +72,13 @@ class LimeLightCRMLaravelServiceProviderTest extends TestCase
         $method = self::getMethod('createLimeLightCRMLaravelClosure');
 
         $app = [
-            'config' => $this->config
+            'config' => $this->config,
         ];
 
         $this->config->shouldReceive('offsetGet')->with('lime-light-crm')->andReturn([
             'base_url' => 'mock_url',
             'username' => 'mock_username',
-            'password' => 'mock_password'
+            'password' => 'mock_password',
         ]);
 
         $closure = $method->invokeArgs($this->provider, []);
@@ -90,8 +88,7 @@ class LimeLightCRMLaravelServiceProviderTest extends TestCase
     }
 
     /**
-     * @param string $name
-     *
+     * @param  string  $name
      * @return ReflectionMethod
      */
     protected static function getMethod($name)

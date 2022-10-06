@@ -1,4 +1,11 @@
+.idea
+.phpunit.result.cache
+build
 composer.lock
-vendor/
-.idea/
-/build/
+coverage
+docs
+phpunit.xml
+phpstan.neon
+testbench.yaml
+vendor
+node_modules
