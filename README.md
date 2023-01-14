@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/palpalani/sticky-laravel/v/stable?format=flat-square)](https://packagist.org/packages/palpalani/sticky-laravel)
 [![License](https://poser.pugx.org/palpalani/sticky-laravel/license?format=flat-square)](https://packagist.org/packages/palpalani/sticky-laravel)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/palpalani/sticky-laravel/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/palpalani/sticky-laravel/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Apatch-1)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/palpalani/sticky-laravel/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/palpalani/sticky-laravel/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amatch)
 
 ## Installation
 
