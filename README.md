@@ -1,8 +1,10 @@
-# Sticky Subscription Commerce Platform Client for Laravel 8/9
+# Sticky Subscription Commerce Platform Client for Laravel
 
 [![Latest Stable Version](https://poser.pugx.org/palpalani/sticky-laravel/v/stable?format=flat-square)](https://packagist.org/packages/palpalani/sticky-laravel)
 [![License](https://poser.pugx.org/palpalani/sticky-laravel/license?format=flat-square)](https://packagist.org/packages/palpalani/sticky-laravel)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/palpalani/sticky-laravel/fix-php-code-style-issues.yml?branch=master&label=code%20style&style=flat-square)](https://github.com/palpalani/sticky-laravel/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amaster)
+
+Sticky Subscription Commerce (formerly Lime Light CRM) client for Laravel Framework.
 
 ## Installation
 
