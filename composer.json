@@ -22,7 +22,7 @@
     }
   ],
   "require": {
-    "php": "^8.0",
+    "php": "^8.2",
     "illuminate/support": "^10.0|^11.0|^12.0",
     "palpalani/sticky-php": "^0.3"
   },
